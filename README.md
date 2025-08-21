@@ -40,7 +40,7 @@
 
 
 ## Блок-схема (Flowchart)
-![Flowchart](/component_diagram.drawio.svg)
+![Flowchart](/flowchart.drawio.svg)
 
 
 ## Код
