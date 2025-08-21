@@ -12,9 +12,11 @@
 
 ## Источники данных
 [Федеральная служба государственной статистики (Росстат). Индексы потребительских цен на товары и услуги по Российской Федерации, месяцы (с 1991 г.)](https://rosstat.gov.ru/statistics/price)
+
 Файл ipc_mes_07-2025.xlsx
 
 [Сбериндекс. Медианная заработная плата](https://sberindex.ru/ru/dashboards/median-wages)
+
 Файл median-wages.csv
 
 ## Архтектура кода
@@ -40,4 +42,4 @@ qqq
 [Jupyter notebook](https://github.com/miksoft-home/spark-developer-training/blob/main/semochkin-mv-project.ipynb)
 
 ## Результирующий график
-![Результирующий график](/Результирующий график.png)
+![Результирующий график](/"Результирующий график.png")
