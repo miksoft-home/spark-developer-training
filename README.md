@@ -42,4 +42,4 @@ qqq
 [Jupyter notebook](https://github.com/miksoft-home/spark-developer-training/blob/main/semochkin-mv-project.ipynb)
 
 ## Результирующий график
-![Результирующий график](/"Результирующий график.png")
+![Результирующий график](/Результирующий_график.png)
