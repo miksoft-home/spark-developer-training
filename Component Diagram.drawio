@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Страница — 1" id="pJUMcoHuVTegy9P4Nspx">
+    <mxGraphModel dx="850" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-1" value="Главный скрипт&lt;div&gt;&quot;__main__&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-2" value="Функция загрузки и обработки данных&lt;div&gt;processing()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-3" value="Функция визуализации результата&amp;nbsp;&lt;br&gt;plot_graphs()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-4" value="Функция загрузки индекса потребительских цен load_price_index()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-5" value="Функция загрузки данных из Excel-файла&lt;br&gt;excel_to_df()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-6" value="Функция загрузки данных о медианных зарплатах&amp;nbsp;&lt;br&gt;load_median_wages()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-7" value="Функция загрузки данных из csv-файлов&lt;br&gt;csv_to_df()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-1" target="zQt9HYK2WzweEFcVUpTj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="sourcePoint" />
+            <mxPoint x="230" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-2" target="zQt9HYK2WzweEFcVUpTj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="383" y="110" as="sourcePoint" />
+            <mxPoint x="290" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-4" target="zQt9HYK2WzweEFcVUpTj-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="230" as="sourcePoint" />
+            <mxPoint x="170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-6" target="zQt9HYK2WzweEFcVUpTj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="170" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-2" target="zQt9HYK2WzweEFcVUpTj-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="350" as="sourcePoint" />
+            <mxPoint x="410" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQt9HYK2WzweEFcVUpTj-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQt9HYK2WzweEFcVUpTj-1" target="zQt9HYK2WzweEFcVUpTj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="383" y="110" as="sourcePoint" />
+            <mxPoint x="290" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
