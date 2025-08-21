@@ -30,7 +30,7 @@
   - Финализация
  
 ## Диаграмма компонентов (Component Diagram)
-![Component Diagram](/"Component Diagram.drawio.png")
+![Component Diagram](/component_diagram.drawio.png)
 
 
 ## Блок-схема (Flowchart)
