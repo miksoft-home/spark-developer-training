@@ -34,6 +34,8 @@
 ## Диаграмма компонентов (Component Diagram)
 ![Component Diagram](/component_diagram.drawio.png)
 
+![Component Diagram](http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png)
+
 
 ## Блок-схема (Flowchart)
 qqq
